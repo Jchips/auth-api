@@ -3,27 +3,15 @@
 const { server } = require('../src/server');
 const supertest = require('supertest');
 const { db } = require('../src/models');
-const { users } = require('../src/auth/models');
 const request = supertest(server);
 
 let person = {
   username: 'goat',
   password: 'password123',
 };
-// let person2;
 
 beforeAll(async () => {
   await db.sync();
-  // person = await users.create({
-  //   username: 'fox',
-  //   password: 'password123',
-  //   role: 'admin',
-  // });
-  // person2 = await users.create({
-  //   username: 'goat',
-  //   password: 'password123',
-  //   role: 'user',
-  // });
 });
 
 afterAll(async () => {
