@@ -13,8 +13,8 @@
 ### Links and Resources
 
 - [GitHub Actions ci/cd](https://github.com/Jchips/auth-api/actions)
-<!-- - [back-end server url](https://api-server-dev-u3w5.onrender.com) -->
-- [Pull Request](https://github.com/Jchips/auth-api/pull/2)
+- [back-end server url](https://auth-api-dev-4rc4.onrender.com)
+- [Pull Request](https://github.com/Jchips/auth-api/pull/1)
 
 ### Setup
 
@@ -35,7 +35,7 @@
 
     My key takeaway is how to implement access control into a rest api that uses basic and bearer auth.
 
-- Pull request: <https://github.com/Jchips/auth-api/pull/2>
+- Pull request: <https://github.com/Jchips/auth-api/pull/1>
 
 /api/v1 routes (works with /food or /clothes)
 
